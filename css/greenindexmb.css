@@ -706,7 +706,7 @@ p {
     opacity: 1;
 }
 
-@media only screen (min-width: 768px) and (max-width:900px){
+@media(min-width: 768px) and (max-width:900px){
 .navbar{
 height: 180px;
 width: 100%;
@@ -717,6 +717,9 @@ grid-template-columns: 1fr 1fr;
 grid-gap: 1rem;
 justify-items:center;
 padding: 1rem;
+}
+.img1{
+    width: 40%;
 }
 .title {
 display: flex;
@@ -746,13 +749,11 @@ align-items: center;
 
 }
 .img1{
-Layout Properties
 
 width: 40%;
 
-UI Properties
 
-background-image: url('stopclimatechange.png');
+background-image: url('/Green_tree_initiative/css/stopclimatechange.png');
 opacity: 1;
 background-size: 100%;
 background-repeat: no-repeat;}
@@ -783,9 +784,43 @@ height: 328px
 .bgimg {
 width:80%;
 height: 500px;
-background: transparent url('lady-baby.png') 0% 0% no-repeat padding-box;
+background: transparent url('/Green_tree_initiative/GreenTree/assets/home/lady-baby.png') 0% 0% no-repeat padding-box;
 opacity: 1;
 padding: 10%;
+}
+.showcase3 {
+    display: flex;
+    flex-direction: row;
+    gap:10rem;
+}
+
+.takeact {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+.imgclim{
+    width: 400%;
+}
+#tat{
+    border-radius: 75px;
+    background: #C1f7d5;
+    padding: 5px 5px 5px 12px;
+    width: 180%;
+    height: 30px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+#event{
+    top: 275px;
+    left: 300px;
+}
+#news{
+    height: 32px;
+    left: 300px;
+    top: 795px;
 }
 .showcase4{
 gap: 12rem;
@@ -819,7 +854,7 @@ grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 grid-gap: 2rem;
 }
-.newsclass,.eventclass{
+/* .newsclass,.eventclass{
 position: relative;
 width: 100%;
 background: #354463 0% 0% no-repeat padding-box;
@@ -835,7 +870,7 @@ grid-template-areas:
 align-items: center;
 gap: 1rem;
 text-align: center;
-}
+} */
 .imgtake{
 grid-area: b;
 
@@ -862,8 +897,8 @@ grid-area: e;
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 0rem;
-        padding: 1rem;
+        gap: 10rem;
+        padding: 100px;
     }
 
 
@@ -873,18 +908,22 @@ grid-area: e;
 
     .title {
         flex-direction: row;
-        gap: 5rem;
+        gap: 10rem;
     }
-
+    .title ul{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
     .title li {
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .showcase {
         width: 100%;
         height: auto;
         padding: 10% 20%;
-        background-image: url("annie-spratt-135307-unsplash@2x.png");
+        background-image: url("/Green_tree_initiative/css/annie-spratt-135307-unsplash@2x.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         opacity: 1;
@@ -935,19 +974,31 @@ grid-area: e;
     .showcase3 {
         display: flex;
         flex-direction: row;
+        gap:20rem;
     }
 
-    .box1 {
+    .takeact {
         display: flex;
         flex-direction: column;
-    }
+        gap: 5rem;
 
+    }
+    .imgclim{
+        width: 250%;
+    }
+    #didyouknow{
+        left:230px;
+    }
     .bgimg {
         width: 80%;
         height: 500px;
-        background: transparent url('lady-baby.png') 0% 0% no-repeat padding-box;
+        background: transparent url('/Green_tree_initiative/GreenTree/assets/home/lady-baby.png') 0% 0% no-repeat padding-box;
         opacity: 1;
         padding: 10%;
+    }
+    .box2{
+        width: 50%;
+        padding-left: 10%;
     }
 
     .showcase4 {
@@ -1012,6 +1063,30 @@ grid-area: e;
         align-items: center;
         gap: 1rem;
     }
+    #event{
+        top: 325px;
+        left: 450px;
+    }
+    #news{
+        width: 30%;
+        top: 850px;
+        left: 450px;
+        height: 33px;
+        padding-top: 5px;
+    }
+    #tat{
+        border-radius: 75px;
+        background: #C1f7d5;
+        padding: 5px 5px 5px 40px;
+        width: 150%;
+        height: 30px;
+        display: flex;
+        font-size: 16px;
+        align-items: center;
+    }
+    .imglow{
+        width: 40%;
+    }
 
-
+    
 }
