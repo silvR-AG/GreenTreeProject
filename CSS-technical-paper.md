@@ -173,5 +173,5 @@
     CSS is a really useful tool, that can help us make a website aesthetic to the yes as well as make it responsive. There are various tools and queries available in CSS that can enable us to do so.
 
 # References:
-    - [CSS-HTML tutorials](https://www.w3schools.com/default.asp)
-    - [CSS tutorials](https://css-tricks.com/)
+- [CSS-HTML tutorials](https://www.w3schools.com/default.asp)
+- [CSS tutorials](https://css-tricks.com/)
