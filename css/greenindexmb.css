@@ -1,0 +1,1017 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+}
+
+body {
+    background-color: #354463;
+    line-height: 1.6;
+    display: grid;
+}
+
+.container {
+    max-width: 80%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+a {
+    text-decoration: none;
+    color: #354463;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: 700;
+    color: #354463;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    font-size: 14px;
+}
+
+p {
+    padding: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    background-origin: padding-box;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-gap: 4 rem;
+    justify-items: stretch;
+    /* padding: 1rem; */
+}
+
+#Donate {
+    border-radius: 75px;
+    background: #C1f7d5;
+    padding: 14px 14px 14px 100px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.showcase {
+    width: 100%;
+    height: auto;
+    padding: 3% 10% 15%;
+    background-image: url("/Green_tree_initiative/css/annie-spratt-135307-unsplash@2x.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    /* margin-bottom: -70px; */
+    z-index: -1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10 rem;
+}
+
+.img1 {
+
+    /* Layout Properties */
+
+    width: 60%;
+
+    /* UI Properties */
+
+    background-image: url('/Green_tree_initiative/css/stopclimatechange.png');
+    opacity: 1;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.show1 {
+    position: relative;
+    width: 100%;
+    height: 256px;
+    padding: 10%;
+
+    /* UI Properties */
+
+    background-color: #FFFFFF;
+    background-origin: padding-box;
+    opacity: 100;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.d1 {
+    width: 100%;
+}
+
+.little1 {
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    height: 40px;
+    width: 30%;
+
+    /* UI Properties */
+
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.little1 h3 {
+    /* top: 254px; */
+    /* left: 268px; */
+    /* width: 78px; */
+    height: 14px;
+    disp
+    /* UI Properties */
+
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.show1 a {
+
+    height: 16px;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+}
+
+.s1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #354463;
+}
+
+.navbar2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.innav2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #354463;
+}
+
+#TA {
+    position: absolute;
+    top: -20px;
+    left: 120px;
+    height: 33px;
+    width: 30%;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 5px;
+    /* UI Properties */
+
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+}
+
+p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.innav2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.showcase2 {
+    width: 100%;
+    height: auto;
+    background: #354463 0% 0% no-repeat padding-box;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+
+}
+
+#mission {
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+#what_we_do {
+    width: 80%;
+    text-align: center;
+    font-weight: 400;
+    color: #354463;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.innershow {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.Initiative {
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 10% 10% 30%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.imgin {
+    position: absolute;
+    top: -50px;
+    width: 70%;
+    height: 150px;
+    background-image: url('/Green_tree_initiative/GreenTree/assets/home/tree-planting.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Training {
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 10% 10% 30%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.imgtr {
+    position: absolute;
+    top: -50px;
+    width: 60%;
+    height: 190px;
+    background-image: url('/Green_tree_initiative/GreenTree/assets/home/education-training.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.Advocacy {
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 10% 10% 30%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.imgad {
+    position: absolute;
+    top: -50px;
+    width: 60%;
+    height: 190px;
+    background-image: url('/Green_tree_initiative/GreenTree/assets/home/advocacy.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.divfl {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+
+.showcase3 {
+    width: 100%;
+    height: auto;
+    background-image: url("/Green_tree_initiative/GreenTree/assets/home/did-you-know-background.png");
+    background-image: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem
+}
+
+.box2 {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+}
+
+.minibox1 {
+    padding: 5%;
+    width: 100%;
+    height: 136px;
+
+    /* UI Properties */
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.minibox2 {
+    padding: 5%;
+    width: 100%;
+    height: 136px;
+
+    /* UI Properties */
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.minibox3 {
+    padding: 10%;
+    width: 100%;
+    height: 136px;
+
+    /* UI Properties */
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.minibox4 {
+    padding: 5%;
+    width: 100%;
+    height: 136px;
+
+    /* UI Properties */
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.showcase3 h5 {
+    border-radius: 75px;
+    background: #C1f7d5;
+    padding: 14px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.imgclim {
+    width: 75%;
+    height: 192px;
+    background-image: url('/Green_tree_initiative/css/Climate\ changeIs\ a\ hunger\ issue..png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#didyouknow {
+    position: absolute;
+    text-align: center;
+
+    top: -15px;
+    left: 65px;
+    height: 28px;
+
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 700;
+    /* UI Properties */
+
+
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.showcase4 {
+    position: relative;
+    padding: 20% 10% 10%;
+    width: 100%;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}
+
+.bgimg {
+    width: 100%;
+    height: 312px;
+    background: transparent url('/Green_tree_initiative/GreenTree/assets/home/lady-baby.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 10%;
+}
+
+#Stories {
+    position: absolute;
+    top: 57px;
+    left: 124px;
+    height: 33px;
+    width: 25%;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 700;
+    /* UI Properties */
+    text-align: center;
+
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.para {
+    background-color: #354463;
+    color: #FFFFFF;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para p {
+    text-align: center;
+}
+
+.para div {
+    font-size: small;
+    text-align: center;
+}
+
+.showcase5 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    background: #354463 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+}
+
+.newsclass,
+.eventclass {
+    /* position: relative; */
+    width: 100%;
+    background: #354463 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+    text-align: center;
+}
+
+.readmore {
+    border-radius: 75px;
+    background: #C1f7d5;
+    color: #354463;
+    padding: 10px;
+    width: auto;
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.letstake {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.showcase5 h4 {
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.showcase5 .readmore {
+    border-radius: 75px;
+    background: #C1f7d5;
+    color: #354463;
+    padding: 14px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.showcase5 div {
+    color: #FFFFFF
+}
+
+.imgtake {
+    width: 80%;
+    height: 312px;
+
+    /* UI Properties */
+
+    background-image: url('/Green_tree_initiative/GreenTree/assets/home/tree-planting.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 1;
+}
+
+#event {
+    position: absolute;
+    top: 445px;
+    left: 135px;
+    height: 33px;
+    width: 25%;
+    font-weight: 400;
+    color: #354463;
+    font-size: 18px;
+    padding: 5px;
+    /* UI Properties */
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+#news {
+    position: absolute;
+    top: 1040px;
+    left: 135px;
+    height: 43px;
+    width: 25%;
+    font-weight: 400;
+    color: #354463;
+    font-size: 16px;
+    padding: 5px;
+    /* UI Properties */
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.emailbar {
+    padding: 5%;
+    width: 100%;
+    height: 208px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#mail-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem
+}
+
+#subs {
+    color: #354463;
+    font-weight: 500;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#email {
+    border-radius: 75px;
+    background: #FFFFFF;
+    padding: 14px;
+    width: auto;
+    height: 40px;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+
+}
+
+#subscribe {
+    border-radius: 75px;
+    background: #354463;
+    padding: 14px;
+    color: #C1F7D5;
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.lownav {
+    padding: 10%;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.imglow {
+    height: 136px;
+    background-image: url("/Green_tree_initiative/css/stopclimate.png");
+    background-size: 100%;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+@media only screen (min-width: 768px) and (max-width:900px){
+.navbar{
+height: 180px;
+width: 100%;
+background-color: #FFFFFF;
+background-origin: padding-box;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 1rem;
+justify-items:center;
+padding: 1rem;
+}
+.title {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 1rem;
+gap: 2rem;
+}
+.title ul{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 1rem;
+}
+#Donate{
+padding-right: 120px;    
+}
+.showcase2 {
+width: 100%;
+height: auto;
+background: #354463 0% 0% no-repeat padding-box;
+padding: 5%;
+display: flex;
+flex-direction: column;
+gap: 8rem;
+align-items: center;
+
+}
+.img1{
+Layout Properties
+
+width: 40%;
+
+UI Properties
+
+background-image: url('/Green_tree_initiative/css/stopclimatechange.png');
+opacity: 1;
+background-size: 100%;
+background-repeat: no-repeat;}
+#TA {
+position: absolute;
+top: -20px;
+left: 120px;
+height: 33px;
+width: 20%;
+font-weight: 400;
+color: #FFFFFF;
+font-size: 18px;
+padding: 5px 5px 5px 25px;
+UI Properties
+
+background: #354463 0% 0% no-repeat padding-box;
+opacity: 1;
+
+
+}
+.v{
+height: 750px;
+padding: 30%;
+}
+.pic{
+height: 328px
+}
+.bgimg {
+width:80%;
+height: 500px;
+background: transparent url('/Green_tree_initiative/GreenTree/assets/home/lady-baby.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+padding: 10%;
+}
+.showcase4{
+gap: 12rem;
+justify-items:flex-start;
+}
+.showcase4.readmore{
+font-size: 22px;
+font-weight: 500
+}
+.para{
+position: absolute;
+top: 550px;
+left: 250px;
+width: 60%;
+height: 300px;
+}
+#Stories{
+width:10%;
+height: 35px;
+font-size: 20px;
+top:140px;
+left: 200px;
+}
+.lownav {
+padding: 10%;
+background-color: #FFFFFF;
+width: 100%;
+height: auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-gap: 2rem;
+}
+.newsclass,.eventclass{
+position: relative;
+width: 100%;
+background: #354463 0% 0% no-repeat padding-box;
+display: grid;
+grid-template-columns:2fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+grid-template-areas:
+"a b"
+"c b"
+"d b"
+"d "
+"e ";
+align-items: center;
+gap: 1rem;
+text-align: center;
+}
+.imgtake{
+grid-area: b;
+
+}
+#earthday{
+grid-area: c ;
+}
+#lorem{
+grid-area:d ;
+}
+#event{
+grid-area:a
+}
+.readmore{
+grid-area: e;
+} 
+}
+@media (min-width:960px) {
+    .navbar {
+        height: auto;
+        width: 100%;
+        background-color: #FFFFFF;
+        background-origin: padding-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0rem;
+        padding: 1rem;
+    }
+
+
+    #Donate {
+        padding: 3px 7px 3px 7px;
+    }
+
+    .title {
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .title li {
+        font-size: 18px;
+    }
+
+    .showcase {
+        width: 100%;
+        height: auto;
+        padding: 10% 20%;
+        background-image: url("/Green_tree_initiative/css/annie-spratt-135307-unsplash@2x.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        opacity: 1;
+        margin-bottom: -70px;
+        z-index: -1;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 4rem;
+    }
+
+    .show1 {
+        width: 70%;
+        height: 512px;
+    }
+
+    #TA {
+        width: 8%;
+    }
+
+    .s1 {
+        font-family: Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        text-align: left;
+    }
+
+    /* .showcase2 {
+    width: 100%;
+    height: auto;
+    background: #354463 0% 0% no-repeat padding-box;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center; */
+
+    .innershow {
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+
+    }
+
+    .showcase3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bgimg {
+        width: 80%;
+        height: 500px;
+        background: transparent url('/Green_tree_initiative/GreenTree/assets/home/lady-baby.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding: 10%;
+    }
+
+    .showcase4 {
+        flex-direction: row-reverse;
+        gap: 12rem;
+        justify-items: flex-start;
+    }
+
+    .showcase4.readmore {
+        font-size: 22px;
+        font-weight: 500
+    }
+
+    .para {
+        position: absolute;
+        top: 320px;
+        left: 50px;
+        width: 40%;
+        height: 400px;
+    }
+
+    #Stories {
+        width: 10%;
+        height: 35px;
+        font-size: 20px;
+        top: 240px;
+        left: 600px;
+    }
+
+    .Advocacy {
+        position: relative;
+        background-color: #FFFFFF;
+        padding: 5%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .Initiative {
+        position: relative;
+        background-color: #FFFFFF;
+        padding: 5%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .Training {
+        position: relative;
+        background-color: #FFFFFF;
+        padding: 5%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+
+}
